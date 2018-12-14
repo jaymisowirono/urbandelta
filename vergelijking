@@ -1,0 +1,29 @@
+ <h2 class="text-center">URBAN DELTA'S</h2>
+    <p class="text-center">Mekongdelta v.s Lagune van Venetië</p>
+      <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Intro</a></li>
+    <li><a data-toggle="tab" href="#menu1">Geografie</a></li>
+    <li><a data-toggle="tab" href="#menu2">Klimaat</a></li>
+    <li><a data-toggle="tab" href="#menu3">(kunstmatige) Bescherming</a></li>
+     <li><a data-toggle="tab" href="#menu4">Waterveiligheid</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2 class="text-center">Introductie</h2>
+      <p class="text-center">Binnen dit onderzoek van Urban View wordt er een vergelijking gemaakt betreft het thema van overstromingen.<br>
+      Per onderdeel worden de kenmerken van de Mekong delta en Lagune van Venetië naast elkaar weergegeven. Op deze manier zijn de veschillen inzichtelijk en kunnen de twee rivieren van elkaars verschillen leren.<br><br></p>
+    <!-- vergelijking tekst-->     
+  <div class="row">
+    <div class="col-sm-6" style="text-decoration-color: aliceblue;">
+      De Mekongdelta in Vietnam, de derde grootste delta van de wereld, is aan het verdrinken. Dit komt niet alleen door de zeespiegelstijging, maar vooral ook door de bodemdaling in het gebied. 
+Per jaar daalt de bodem van de Mekongdelta met 1 tot 4,7 centimeter. Op het eerste gezicht lijkt dat niet veel. Maar als we niets doen, ligt de delta halverwege deze eeuw bijna een meter lager. Bedenk daarbij dat de delta slechts één tot twee meter boven zeeniveau ligt, en met een simpel rekensommetje wordt duidelijk dat er snel maatregelen moeten komen.<br>
+ Het stedelijke patroon van de Mekongdelta is sterk verbonden met elkaar door een uitgebreid netwerk van kanalen. Dit heeft bijgedragen aan de ontwikkeling van de delta, die momenteel deel uitmaakt van de 
+de grootste rijstproductiegebieden ter wereld. Overstroming is nog steeds een jaarlijks evenement over grote delen van de delta. Het brengt 
+        nieuwe sedimenten en voedingsstoffen voor de velden, wat ten goede komt aan zowel de rijstproductie als de duurzaamheid op lange termijn van de delta door de zeespiegelstijging te compenseren.<br> <br>
+    </div>
+    <div class="col-sm-6" style="text-decoration-color: aliceblue; text-align:right">
+      Venetië en water, het is een verhaal van liefde en haat. De kanalen en de lagune zijn het belangrijkste kenmerk van Venetië en geven de stad zijn ontspannen sfeer. Roeien en regatas maken deel uit van het dagelijkse leven van elke Venetiaan. Aan de andere kant is de destructieve kracht van het water ook de grootste vijand van de infrastructuur van de stad.
+
+De stad Venetië zoals we die nu kennen is geen natuurlijk eiland (of groep van 118 eilanden), maar een kunstmatige stad gebouwd op het water. In de 8e en 9e eeuw was Venetië slechts een archipel van kleine eilanden, gescheiden door één grote en vele smalle kanalen. Deze eilanden werden vanaf de 9e eeuw bewoond. Toen de bevolking groeide en de huizen steeds groter werden, schoren ze de grond en creëerden ze extra land.   
+      </div></div>
