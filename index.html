@@ -20,14 +20,9 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styletest.css"/>
  <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet"> 
  
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -151,7 +146,7 @@ function googleTranslateElementInit() {
 <!-- Container (The intro Section) -->
 
     <br><br><h3 style="text-align: center"><font face="quicksand">URBAN VIEW</font><img src="img/logo.png" height="50px" width="55px" /></h3><font face="Raleway">
-<p style="padding-left: 100px; padding-right: 100px; text-align: center;"><font size="3">Door de snelle veranderingen en innovatie
+<p style="padding-left: 100px; padding-right: 100px; text-align: center; "><font size="3">Door de snelle veranderingen en innovatie
 wonen steeds meer mensen in steden dan
 op het platteland. Meer dan de helft van
 de wereldbevolking woont in steden en de
@@ -366,10 +361,10 @@ De barrières zullen worden verhoogd om de lagune van de zee te scheiden wanneer
       <h2 class="text-center"><font face="quicksand">OVERSTROMINGEN</font></h2>
       <h4 class="text-center"><font face="raleway">De onderstaande kaarten weergeven de belangrijkste onderstromingsgebieden binnen de lagune van Venetie en de Mekong delta.<br> Elk regenlaarsje kent zijn eigen verhaal.</font></h4>
   
-      <div class="col-md-6" style="padding-left: 50px;">
+      <div class="col-md-6" >
           <div id="map"> </div></div>
           
-              <div class="col-md-6" style="padding-left: 50px"; style="padding-right: 150px";>
+              <div class="col-md-6" >
         <div id="map2"></div></div>
     </div>
        </div>
@@ -385,19 +380,19 @@ De barrières zullen worden verhoogd om de lagune van de zee te scheiden wanneer
 
 
  <!-- Container (About Section) -->
- 
+ <div class="container" style="position:relative">
 <div id="contact">
   <div class="row">
-    <div class="col-sm-6" style="padding-left: 100px;">
+    <div class="col-sm-6" >
         <h2><font face="quicksand">Over Urban View</font></h2>
-        <h5><font face="raleway">Wie zijn wij?</font></h5>
-        <p><font face="raleway">Urban View staat bekend op haar Mixed Reality simulaties van de echte wereld. Het bedrijf is opgericht om enkele van ’s werelds moeilijkste problemen te analyseren, onderzoeken en op te lossen. Urban view doet dit met de inzet van wetenschap, duurzaamheid, gemeenschap, onderwijs, onderzoek en toekomstige innovaties.</font> </p>
+        <h4><font face="raleway">Wie zijn wij?</font></h4>
+        <font size="3" ><font face="raleway">Urban View staat bekend op haar Mixed Reality simulaties van de echte wereld. Het bedrijf is opgericht om enkele van ’s werelds moeilijkste problemen te analyseren, onderzoeken en op te lossen. Urban view doet dit met de inzet van wetenschap, duurzaamheid, gemeenschap, onderwijs, onderzoek en toekomstige innovaties. 
 
-<p>Sinds de oprichting in 1971 heeft Urban View een grote expertise opgebouwd in het toepassen van onderzoek op het gebied van diversiteit en complexiteit in de milieuproblematiek. Enkele onderzoeken die worden uitgevoerd worden publiekelijk gedeeld op hun research website. 
-Door de grote opkomst van klimaatverandering is Urban View momenteel bezig met het oprichten van een Delta website. De stedelijke delta’s kampen tegenwoordig echter met gelijksoortige uitdagingen. Zeker in de tijd van dreigende overstromingen en te dicht bevolkte gebieden. 
-</p>
+<br><br>Sinds de oprichting in 1971 heeft Urban View een grote expertise opgebouwd in het toepassen van onderzoek op het gebied van diversiteit en complexiteit in de milieuproblematiek. Enkele onderzoeken die worden uitgevoerd worden publiekelijk gedeeld op hun research website. 
+Door de grote opkomst van klimaatverandering is Urban View momenteel bezig met het oprichten van een Delta website. De stedelijke delta’s kampen tegenwoordig echter met gelijksoortige uitdagingen. Zeker in de tijd van dreigende overstromingen en te dicht bevolkte gebieden. <br><br> Meer vragen over ons? Stuur gerust een bericht naar ons!</font>
+</font>
     </div>
-    <div class="col-sm-6" style="padding-left: 100px;" >
+    <div class="col-sm-6"  style="padding-left: 100px;">
 	<div class="contact">
       <form action="/action_page.php"><br><br>
           <label for="fname" style="font-family: Quicksand;"><h4>Voornaam</h4></label><br>
@@ -405,7 +400,7 @@ Door de grote opkomst van klimaatverandering is Urban View momenteel bezig met h
         <label for="lname" style="font-family: Quicksand;"><h4>Achternaam</h4></label><br>
         <input type="text" id="lname" name="lastname" placeholder="Achternaam.." style="font-family: Raleway;"><br>
         <label for="subject" style="font-family: Quicksand;"><h4>Bericht</h4></label><br>
-        <textarea id="subject" name="subject" placeholder="Typ hier je bericht.." style="height:170px; width::170px font-family: Raleway;"></textarea><br>
+        <textarea id="subject" name="subject" placeholder="Typ hier je bericht.." style="height:140px; width::170px; font-family: Raleway;"></textarea><br>
         <input type="submit" value="Verstuur" style="font-family: Quicksand;">
       </form>
     </div>
@@ -416,17 +411,18 @@ Door de grote opkomst van klimaatverandering is Urban View momenteel bezig met h
 
   <br>
   
-  <!-- Container (BLOG) -->
+<!-- Container (BLOG) -->
 <div id="blog" style="background-color: aliceblue">
 <div class="container">
-    
 <!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/simple/skin.css" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} hcb_user.PAGE="https://jaymisowirono.github.io/hwud/";(function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24dQh3bOwf8geQmb%2Fo6Att0."+"&opts=16606&num=10&ts=1547890456656");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} hcb_user.PAGE="https://jaymisowirono.github.io/urbandelta/";(function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24dQh3bOwf8geQmb%2Fo6Att0."+"&opts=16862&num=10&ts=1548051486276");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+
 <!-- end www.htmlcommentbox.com -->
  <br><br><br>
 
+<!-- end www.htmlcommentbox.com -->
  <!-- end www.htmlcommentbox.com -->
   
    <!-- oude blog 
@@ -486,8 +482,8 @@ Door de grote opkomst van klimaatverandering is Urban View momenteel bezig met h
 
 <!-- Footer -->
 <footer class="text-center">
-    <p><font face="raleway">Gemaakt door Jaymi Sowirono</font> <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools"><font face="raleway">© Copyright 2018</font></a></p> 
-    <p><font face="quicksand">URBEN VIEW </font><img src="img/logo1.png" height="35px" width="50px" /> </p>
+    <h5><font face="raleway">Gemaakt door Jaymi Sowirono</font> <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools"><font face="raleway">© Copyright 2018</font></a></h5> 
+    <h4><font face="quicksand">URBEN VIEW </font><img src="img/logo1.png" height="35px" width="50px" /> </h4>
 </footer>
 
 <script>
